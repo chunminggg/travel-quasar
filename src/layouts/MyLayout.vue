@@ -33,11 +33,11 @@
         inset-delimiter
       >
         <q-list-header>菜单选项</q-list-header>
-        <q-item >
+        <q-item to="/island">
           <q-item-side icon="wb_cloudy" />
           <q-item-main label="类别" sublabel="海岛管理" />
         </q-item>
-        <q-item >
+        <q-item to="/product">
           <q-item-side icon="view_module" />
           <q-item-main label="产品" sublabel="产品管理" />
         </q-item>
