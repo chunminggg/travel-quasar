@@ -6,8 +6,22 @@
 </template>
 
 <script>
+import {getIslandList} from '.././plugins/service'
 export default {
-  // name: 'PageName',
+    data(){
+      return {
+
+      }
+    },
+    mounted(){
+      this.getData()
+    },
+    methods:{
+      async getData(){
+        let data = await getIslandList()
+        debugger
+      }
+    }
 }
 </script>
 
